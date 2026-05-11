@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+
+directory = input("Directory to check:")
+
+if os.path.isdir(directory):
+	sys.stdout.write(f"Success! The directory {directory} exists.")
+else:
+	sys.stderr.write(f"Error: The directory {directory} does not exist.")
