@@ -3,9 +3,11 @@
 import os
 import sys
 
-directory = input("Directory to check:")
-
-if os.path.isdir(directory):
-	sys.stdout.write(f"Success! The directory {directory} exists.")
-else:
-	sys.stderr.write(f"Error: The directory {directory} does not exist.")
+try: 
+	directory = sys.argv[1]
+	if os.path.isdir(directory):
+		sys.stdout.write(f"Success! The directory {directory} exists.\n")
+	else:
+		sys.stderr.write(f"Error: The directory {directory} does not exist.\n")
+except IndexError:
+	sys.stderr.write(f"Please enter a directory name.\n")
