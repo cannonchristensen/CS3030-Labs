@@ -1,0 +1,11 @@
+[2026-06-10 14:20] INFO: User 192.168.1.22 logged in
+[2026-06-10 14:21] WARNING: High memory usage detected on process 4421
+[2026-06-10 14:22] ERROR: DiskFailure - Could not read sector 2048
+[2026-06-10 14:23] INFO: Connection from 10.0.0.5 established
+[2026-06-10 14:23] ERROR: AuthError - Invalid password for user 'root'
+[2026-06-10 14:24] INFO: Scheduled backup completed successfully
+[2026-06-10 14:25] ERROR: NetworkTimeout - Lost connection to 172.16.0.77 after 30 seconds
+[2026-06-10 14:26] INFO: User 192.168.1.45 logged out
+[2026-06-10 14:27] ERROR: FileNotFound - Missing configuration file: /etc/app/config.yaml
+[2026-06-10 14:28] INFO: System health check passed
+[2026-06-10 14:29] ERROR: PermissionDenied - User 'guest' attempted restricted operation

@@ -1,0 +1,6 @@
+Date,Error Type,Message
+2026-06-10,DiskFailure,Could not read sector 2048
+2026-06-10,AuthError,Invalid password for user 'root'
+2026-06-10,NetworkTimeout,Lost connection to 172.16.0.77 after 30 seconds
+2026-06-10,FileNotFound,Missing configuration file: /etc/app/config.yaml
+2026-06-10,PermissionDenied,User 'guest' attempted restricted operation
