@@ -4,7 +4,7 @@ from datetime import datetime
 
 cpu_percent = psutil.cpu_percent(1)
 available_ram = round(psutil.virtual_memory().available / (1024**3), 2)
-disk_usage = psutil.disk_usage('/System/Volumes/Data').percent
+disk_usage = psutil.disk_usage('/').percent
 
 print(f"""Timestamp: {datetime.now().isoformat()}
 CPU Usage: {cpu_percent}%

@@ -1,0 +1,16 @@
+[Unit]
+Description=A script for monitoring server CPU usage, available RAM, and disk usage.
+After=network.target
+
+[Service]
+Type=simple
+User=cannon
+WorkingDirectory=/home/cannon/CS3030-Labs/swiss-army-knife-cannon-christensen/section4/task5
+Restart=always
+RestartSec=5
+ExecStart=/home/cannon/CS3030-Labs/.venv/bin/python -u /home/cannon/CS3030-Labs/swiss-army-knife-cannon-christensen/section4/task5/monitor_daemon.py
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
