@@ -1,0 +1,2 @@
+theme=light
+audio_level=10
