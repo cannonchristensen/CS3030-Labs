@@ -4,7 +4,7 @@ import csv
 log_file = open('../task1/sample.log')
 data = log_file.readlines()
 
-output_file = open('output.csv', 'w', newline='')
+output_file = open('error_report.csv', 'w', newline='')
 output_dict_writer = csv.DictWriter(output_file, ['Date', 'Error Type', 'Message'])
 output_dict_writer.writeheader()
 
