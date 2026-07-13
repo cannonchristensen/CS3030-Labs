@@ -1,0 +1,9 @@
+[2026-07-13 14:05:56,448] - INFO - information
+[2026-07-13 14:05:56,449] - ERROR - Division failed
+Traceback (most recent call last):
+  File "/Users/cannonchristensen/CS3030/CS3030-Labs/swiss-army-knife-cannon-christensen/section5/lesson5/advanced_logging.py", line 9, in <module>
+    number = 4 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+[2026-07-13 14:05:56,449] - INFO - Advanced logging information
+[2026-07-13 14:05:56,449] - INFO - Advanced logging information

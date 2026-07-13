@@ -1,5 +1,9 @@
 {
-  "/index.html": 4,
-  "/login": 2,
-  "/secret-admin": 1
+  "/hidden-backup.tar.gz": 4,
+  "/wp-login.php": 4,
+  "/images/logo.png": 1,
+  "/index.html": 1,
+  "/api/v1/login": 3,
+  "/css/styles.css": 1,
+  "/admin/dashboard": 1
 }
